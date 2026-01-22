@@ -1,0 +1,21 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# IDEs
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.slnx
+
+# OS junk
+.DS_Store
+Thumbs.db
+UserSettings/
