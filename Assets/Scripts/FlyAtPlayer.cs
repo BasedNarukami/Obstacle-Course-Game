@@ -6,6 +6,14 @@ public class FlyAtPlayer : MonoBehaviour
     [SerializeField] float projectileSpeed = 5.0f;
     Vector3 playerPosition;
     
+    
+    
+    void Awake()
+    {
+        gameObject.SetActive(false); // deactivate projectile at start
+    }
+
+
     void Start()
     {
         playerPosition = player.transform.position; // store player position at start
